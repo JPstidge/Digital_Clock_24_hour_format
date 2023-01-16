@@ -7,7 +7,7 @@ root.title("Digital Clock")
 
 
 def time():
-    time_nums = strftime("%H:%M:%S %p")
+    time_nums = strftime("%H:%M:%S")
     label.config(text=time_nums)
     label.after(1000, time)
 
